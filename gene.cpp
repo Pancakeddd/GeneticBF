@@ -117,12 +117,7 @@ void Incubator::Evolve()
 
     reward = reward - creature->code.size();
 
-    if (creature->code.empty())
-    {
-      reward = -1000;
-    }
-
-    if (env.exception)
+    if (creature->code.empty() || env.exception)
     {
       reward = -1000;
     }
