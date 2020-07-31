@@ -1,0 +1,20 @@
+﻿  main.cpp
+c:\users\chane\documents\c\xccx\bf.h(61): warning C4814: 'BFEnvironment::ToOP': in C++14 'constexpr' will not imply 'const'; consider explicitly specifying 'const'
+c:\users\chane\documents\c\xccx\bf.h(63): warning C4814: 'BFEnvironment::IsInBound': in C++14 'constexpr' will not imply 'const'; consider explicitly specifying 'const'
+  feature_tests.cxx
+  CMakeCXXCompilerId.cpp
+  bf.cpp
+c:\users\chane\documents\c\xccx\bf.h(61): warning C4814: 'BFEnvironment::ToOP': in C++14 'constexpr' will not imply 'const'; consider explicitly specifying 'const'
+c:\users\chane\documents\c\xccx\bf.h(63): warning C4814: 'BFEnvironment::IsInBound': in C++14 'constexpr' will not imply 'const'; consider explicitly specifying 'const'
+bf.cpp(76): error C2511: 'BFOPType BFEnvironment::ToOP(char &)': overloaded member function not found in 'BFEnvironment'
+  c:\users\chane\documents\c\xccx\bf.h(48): note: see declaration of 'BFEnvironment'
+bf.cpp(77): error C3249: illegal statement or sub-expression for 'constexpr' function
+bf.cpp(79): error C3249: illegal statement or sub-expression for 'constexpr' function
+bf.cpp(82): error C3249: illegal statement or sub-expression for 'constexpr' function
+bf.cpp(85): error C3249: illegal statement or sub-expression for 'constexpr' function
+bf.cpp(88): error C3249: illegal statement or sub-expression for 'constexpr' function
+bf.cpp(125): error C2511: 'bool BFEnvironment::IsInBound(void)': overloaded member function not found in 'BFEnvironment'
+  c:\users\chane\documents\c\xccx\bf.h(48): note: see declaration of 'BFEnvironment'
+bf.cpp(126): error C2597: illegal reference to non-static member 'BFEnvironment::iptr'
+bf.cpp(126): error C3867: 'BFEnvironment::iptr': non-standard syntax; use '&' to create a pointer to member
+  Generating Code...

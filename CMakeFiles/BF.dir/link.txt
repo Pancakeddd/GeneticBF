@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/bf.dir/main.cpp.o CMakeFiles/bf.dir/gene.cpp.o CMakeFiles/bf.dir/bf.cpp.o  -o bf 

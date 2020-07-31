@@ -1,0 +1,3 @@
+/mnt/c/Users/chane/Documents/c/xccx/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/chane/Documents/c/xccx/CMakeFiles/bf.dir
+/mnt/c/Users/chane/Documents/c/xccx/CMakeFiles/edit_cache.dir
